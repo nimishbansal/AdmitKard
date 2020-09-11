@@ -65,7 +65,7 @@ class QuestionsList extends Component {
           />
           <br />
           <br />
-          <input type="submit" class="btn btn-info" />
+          <input type="submit" className="btn btn-info" />
           <br />
           <br />
         </form>
