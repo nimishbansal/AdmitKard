@@ -4,6 +4,7 @@ import { Dropdown as SemanticUIDropDown } from "semantic-ui-react";
 
 import "react-dropdown/style.css";
 import "./add_question.css";
+import { BASE_BACKEND_URL } from "../constants";
 
 // These are predefined topics which a question can have.
 const TopicsEnum = ["top-colleges", "qualifying-criteria"];
@@ -40,7 +41,7 @@ class AddQuestion extends Component {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     };
-    fetch("http://localhost:8000/question/", requestOptions)
+    fetch(BASE_BACKEND_URL + "/question/", requestOptions)
       .then(async (response) => {
         // console.log(response.status);
         let result = await response.json();

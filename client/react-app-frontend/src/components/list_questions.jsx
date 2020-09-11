@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import ReactJson from "react-json-view";
+import { BASE_BACKEND_URL } from "../constants";
 import "./list_questions.css";
 class QuestionsList extends Component {
   loadQuestions(search_term) {
-    fetch("http://localhost:8000/question/?q=" + search_term)
+    fetch(BASE_BACKEND_URL + "/question/?q=" + search_term)
       .then(async (response) => {
         // console.log(response.status);
         let result = await response.json();
