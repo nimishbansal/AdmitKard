@@ -1,11 +1,12 @@
-var constants = require("../constants");
-
 import React, { Component } from "react";
 import Dropdown from "react-dropdown";
 import { Dropdown as SemanticUIDropDown } from "semantic-ui-react";
 
 import "react-dropdown/style.css";
 import "./add_question.css";
+
+var constants = require("../constants");
+
 // These are predefined topics which a question can have.
 const TopicsEnum = ["top-colleges", "qualifying-criteria"];
 
