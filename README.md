@@ -1,4 +1,4 @@
-##### This github repository have both frontend and backend. Each of them hosted separately.
+##### This github repository have both frontend and backend. Each of them hosted separately on heroku.
 
 #### Frontend or working application (in React JS ) is hosted at - https://admit-kart-frontend.herokuapp.com/
 
