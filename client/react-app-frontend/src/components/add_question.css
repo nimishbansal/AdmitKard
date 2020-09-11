@@ -1,0 +1,28 @@
+.question-form {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.query-input {
+  width: fit-content;
+  font-size: large;
+}
+
+.topic-select {
+  width: fit-content;
+}
+
+.submit {
+  width: fit-content;
+}
+
+.error-msg {
+  color: red;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+  font-size: larger;
+  width: fit-content;
+}
